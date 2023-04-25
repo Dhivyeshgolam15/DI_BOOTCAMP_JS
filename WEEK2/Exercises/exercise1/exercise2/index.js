@@ -10,3 +10,4 @@ if (newDog === "Chihuahua") {
     {esle}
     console.log("I dont care , i prefer cats")
 }
+
