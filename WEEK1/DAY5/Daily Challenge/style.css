@@ -1,0 +1,33 @@
+a
+
+.fade {
+    opacity: 0.5;
+}
+div {
+    width: 20vw;
+    height: 34vh;
+    background: #676470;
+    transition: all 0.4s ease;
+    margin: 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+element.style {
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
