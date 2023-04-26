@@ -5,5 +5,5 @@ if(x < y){
     console.log("y is bigger")
 
 } else {
-    console.log("x is smaller")
+    console.log("x is bigger")
 }
