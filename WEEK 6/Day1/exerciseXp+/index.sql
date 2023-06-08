@@ -25,3 +25,5 @@
 	(7)SELECT first_name, last_name FROM students WHERE first_name LIKE '_a%a';
     (8)SELECT first_name, last_name FROM students WHERE id IN (1, 3);
     (9)SELECT * FROM students WHERE birth_date >= '2000-01-01';
+
+    
