@@ -1,12 +1,10 @@
-// const largeNumber = 356;
+// const largeNumber = 356
+// module.exports = {largeNumber}
 
-// module.exports = largeNumber;
-
-//part3
 
 function getCurrentDateTime() {
-    const currentDate = new Date();
-    return currentDate.toLocaleString();
-  }
-  
-  module.exports = getCurrentDateTime;
+  const currentDateTime = new Date();
+  return currentDateTime.toUTCString();
+}
+
+module.exports = { getCurrentDateTime };

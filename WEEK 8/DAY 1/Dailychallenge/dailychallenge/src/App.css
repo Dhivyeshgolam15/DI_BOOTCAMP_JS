@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,28 +35,18 @@
   to {
     transform: rotate(360deg);
   }
-}
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-}
+} */
 
-.carousel-root {
-  height: 500px;
-  width: 500px;
-  margin: 0 auto;
-  }
+.carousel-caption{
+  position: absolute;
+  top: 613px;
+  left: 45%;
+  /* border: 5px ; */
+  border-radius: 50px;
+  margin: 11px -59px;
+  font-size: 39px;
+  background-color: azure;
+  opacity: 85%;
+  padding: 12px;
 
-  .carousel .slide .legend {
-    background-image: initial;
-    background-color: rgb(233, 16, 16);
-    color: rgb(4 4 4);
-}
-
-.carousel .control-dots .dot {
-  box-shadow: rgb(34 70 214 / 90%) 1px 1px 2px;
-  background-image: initial;
-  background-color: rgb(9 20 226);
 }
