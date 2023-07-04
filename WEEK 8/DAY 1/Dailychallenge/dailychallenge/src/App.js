@@ -29,4 +29,4 @@ const carousel = () => {
   );
 }
 
-export default carousel;
+export default carouse;

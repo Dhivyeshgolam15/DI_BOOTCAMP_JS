@@ -1,15 +1,21 @@
-// src/actions/index.js
+// to move on to the next day
+const forward = weekday => {
+    return {
+        type: "FORWARD_DAY",
+        day: weekday
+    }
+}
 
-// src/actions/index.js
+//to go back to the previous day
+const backward = weekday => {
+    return {
+        type: "BACKWARD_DAY",
+        day: weekday
+    }
+}
 
-export const increaseCount = () => {
-  return {
-    type: 'INCREASE_COUNT'
-  };
-};
-
-export const decreaseCount = () => {
-  return {
-    type: 'DECREASE_COUNT'
-  };
-};
+//we export the two functions
+export {
+    forward,
+    backward,
+}
